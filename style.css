@@ -58,7 +58,6 @@
 .h-100 {
     max-width: 360px;
 }
-
 @media (min-width: 1400px) {
     .card-neg-left {
         margin-right: -30px;
@@ -70,13 +69,11 @@
         padding-left: 60px;
     }
 }
-
 @media (min-width: 576px) {
     .search-width-adjust {
-        min-width: 342px;
+        max-width: 342px;
     }
 }
-
 .feature-icon {
     width: 4rem;
     height: 4rem;
@@ -84,11 +81,8 @@
     color: white;
     background-color: rgb(50, 50, 50);
 }
-
 #featured-3 {
     padding: 50px 0;
-    
-
 }
 #featured-3 a, .a-partner a {
     font-weight: bold;
