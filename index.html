@@ -16,9 +16,10 @@
             <div class="col-lg-6 mx-auto">
                 <p class="lead mb-4">Registry for decentralized second-level domains (dSLDs) of HNS decentralized “country” code top-level domains (dccTLDs)</p>
                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-                    <form role="search">
-                        <input class="form-control search-width-adjust" type="search" placeholder="Search (coming soon)" aria-label="Search">
-                    </form>
+                    <div class="input-group search-width-adjust">
+                        <input class="form-control" type="text" placeholder="Search for .dn, .ur, and .rd" id="sb-input" />
+                        <button class="btn btn-outline-secondary" type="submit" id="button-addon1" onclick="searchReg();">Search</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -221,5 +222,6 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
