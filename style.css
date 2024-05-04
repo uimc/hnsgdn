@@ -49,12 +49,13 @@
 }
 .client-logo-one .single-client {
     margin-top: 30px;
-    filter: blur(8px);
 }
 .client-logo-center-padding {
     padding: 25px 0 0 0;
 }
-
+.logo-blur {
+    filter: blur(6px);
+}
 .h-100 {
     max-width: 360px;
 }
